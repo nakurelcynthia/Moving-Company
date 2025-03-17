@@ -3,7 +3,8 @@
 }
 .navBar{
     display: flex;
-    gap: 40px;
+    gap: 80px;
+    padding-left: 400px;
 }
 .estimate{
     background-color: black;
