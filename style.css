@@ -1,0 +1,28 @@
+.container{
+    padding: 2px 2px 2px 2px;
+}
+.navBar{
+    display: flex;
+    gap: 40px;
+}
+.estimate{
+    background-color: black;
+    color: white;
+    height: 50px;
+    border-radius: 2%;
+    padding: 5px;
+    padding-left: 800px;
+    display: flex;
+}
+.contact{
+    display: flex;
+    gap: 800px;
+    padding-left: 300px;
+}
+.email{
+    display: flex;
+}
+.phone{
+    display: flex;
+}
+
