@@ -1,5 +1,4 @@
 .container{
-    padding: 2px 2px 2px 2px;
 }
 .navBar{
     display: flex;
@@ -27,3 +26,120 @@
     display: flex;
 }
 
+.blog{
+    display: flex;
+}
+.Riaad{
+    display: flex;
+    padding-left: 250px;
+    padding-top: 100px
+}
+.since{
+    padding-left: 200px;
+
+}
+h4{
+    padding-left: 700px;
+}
+h2{
+    padding-left: 600px;
+    font-size: 60px;
+}
+.services{
+    padding-left: 90px;
+}
+.services .logos{
+    display: flex;
+}
+.demo{
+    display: flex;
+    gap: 200px;
+    padding: 80px 0px 80px 200px;
+    margin-left: 200px;
+}
+.demo .help{
+    width: 30%;
+}
+.demo .vid{
+    display: flex;
+    width: 35%;
+}
+.why{
+    display: flex;
+    gap: 200px;
+    padding: 80px 0px 80px 200px;
+}
+.split-screen{
+    display: flex;
+    width: 100%;
+    margin-top: -5px;
+}
+.book{
+    background-color: orange;
+    width: 80%;
+
+}
+.info{
+    background-color: blueviolet;
+    padding: 5%;
+    width: 100%;
+
+}
+form{
+    width: 1850px;
+}
+input{
+    width: 200px;
+    height: 20px;
+}
+label{
+    font-weight: bolder;
+    color: white;
+}
+.testimonials{
+
+}
+.testimonials .heading{
+    padding-left: 600px;
+}
+.heading{
+    font-size: 20px;
+}
+.testimonials .comments{
+    display: flex;
+}
+.newsletter{
+    margin: 200px;
+    margin-left: 300px;
+}
+.newsletter .updates{
+    margin-left: 500px;
+}
+
+.newsletter .sub{
+    display: flex;
+    gap: 800px;
+}
+#submit{
+    background-color: orange;
+}
+.blog{
+    display: flex;
+    gap: 200px;
+
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.further-info{
+    display: flex;
+
+}
+.further-info .p{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.icons{
+    margin-left: 150px;
+}
