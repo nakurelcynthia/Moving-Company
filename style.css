@@ -211,9 +211,6 @@ footer{
     font-weight: bolder;
     font-size: xx-large;
 }
-.icons{
-    margin-left: 150px;
-}
 a{
     color: orange;
     font-weight: bolder;
@@ -228,6 +225,13 @@ a{
     font-weight: bolder;
     font-size: x-large;
     padding-left: 100px;
+}
+.icons{
+    gap: 40px;
+}
+#X{
+    width: 20px;
+    height: 20px;
 }
 .packing{
     padding-left: 50px;
