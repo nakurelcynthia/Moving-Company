@@ -352,8 +352,11 @@ a{
     height: 30px;
     margin-top: 30px;
 }
-
-
-
-
-
+.news{
+    padding-left: 900px;
+}
+.news h3{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-left: -100px;
+}
