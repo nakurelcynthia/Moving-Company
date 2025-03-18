@@ -79,7 +79,8 @@ h2{
     display: flex;
 }
 .services h3{
-    margin-left: 800px;
+    margin-left: 650px;
+    font-size: 50px;
 }
 .demo{
     display: flex;
@@ -120,7 +121,7 @@ h2{
 }
 .book{
     background-color: orange;
-    width: 80%;
+    width: 100%;
 }
 .book p{
     font-weight: bold;
@@ -137,6 +138,17 @@ h2{
 form{
     width: 1850px;
 }
+.happycouples{
+    background-image: url(images/couples\ moving.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    padding-left: 30%;
+    padding-top: 20%;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
 .movdate{
     display: flex;
 }
@@ -152,7 +164,7 @@ input{
 }
 label{
     font-weight: bolder;
-    color: white;
+    color: whit     WHY CHOOSE RIAADe;
 }
 .testimonials{
 
@@ -205,6 +217,7 @@ footer{
 a{
     color: orange;
     font-weight: bolder;
+    font-size: small;
 }
 .logos{
     display: flex;
@@ -250,12 +263,10 @@ a{
     height: 200px;
 }
 .customer{
-    border: 1px solid black;
     background-image: url(images/call\ centre.jpeg);
     background-repeat: no-repeat;
     height: 40vh;
     background-size: cover;
-
 }
 .choicesc{
     border: 1px solid black;
@@ -273,7 +284,7 @@ a{
 }
 .customer p{
     padding-top: 200px;
-    color: white;
+    color: rgb(58, 56, 56);
     font-weight: bolder;
     font-size: xx-large;
     max-width: 70%;
@@ -281,7 +292,7 @@ a{
 }
 .choicesc p{
     padding-top: 200px;
-    color: white;
+    color: rgb(39, 38, 38);
     font-weight: bolder;
     font-size: xx-large;
     max-width: 80%;
@@ -289,7 +300,7 @@ a{
 }
 .moversc p{
     padding-top: 200px;
-    color: white;
+    color: rgb(34, 32, 32);
     font-weight: bolder;
     font-size: xx-large;
     max-width: 80%;
