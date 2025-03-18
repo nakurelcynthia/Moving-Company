@@ -208,8 +208,7 @@ footer{
 
 }
 .further-info .p{
-    font-weight: bolder;
-    font-size: xx-large;
+    display: flex;
 }
 a{
     color: orange;
@@ -334,6 +333,26 @@ a{
 #rose{
     padding-left: 100px;
 }
+.helpm{
+    border: 1px solid white;
+    background-color: orange;
+    font-weight: bolder;
+    font-size: xx-large;
+    height: 200px;
+    display: flex;
+    gap: 100px;
+    padding-left: 300px;
+    padding-top: 50px;
+}
+#buttonD{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    height: 30px;
+    margin-top: 30px;
+}
+
 
 
 
