@@ -23,7 +23,7 @@
                 <p>hello@riaadarif.com</p>
             <p>Email Address</p>
             </div>
-            <div>
+            <div><span>READ MORE</span>
                 <img width="48" height="48" src="https://img.icons8.com/fluency/48/mail--v1.png" alt="mail--v1"/>
             </div>
         </div>
@@ -48,19 +48,29 @@
         </div>
         </header>
         <div class="container-moving">
-            <img class="moveout" src="images/happymoving.jpeg" alt="Image of a happy family moving out" style="width: 100%;">
+            <p>SMOOTH MOVING FOR YOUR FAMILY.</p>
+            <h1>Moving Strive to Make It Easy.</h1>
+            <button type="button" id="submit_button">GET STARTED</button>
         </div>
         <div class="Riaad">
             <div>
-                <h3>LEARN ABOUT US</h3>
+                <h3> <a href="" >LEARN ABOUT US</a></h3>
                 <h1>Moving with Riaad is Always Easy & Fun</h1>
                 <img src="images/couples moving.jpeg" alt="Happy couples with boxes">
             </div>
             <div class="since">
-                <img src="images/boxes.png" alt="Stacked Moving boxes">
-                <h3>RIAAD SINCE</h3>
-                <h1>2007</h1>
-                <p>Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunced amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orcium dolors sit amet elit magnis amet ultrices lorem ipsum is simply free text purusrfed aliquet.</p>
+                <div class="boxes">
+                    <img src="images/boxes.png" alt="Stacked Moving boxes">
+                </div>
+                <div class="riaad">
+                    <div>
+                        <h3> <a href="">RIAAD SINCE</a></h3>
+                        <h1>2007</h1> 
+                    </div>
+                    <div>
+                        <p>Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunced amet dolores sit ipsum velit purus aliq massa fringilla leo orcium dolors sit amet elit.</p>
+                    </div>
+                </div>
             </div>
         </div>
             <div class="icons"> 
@@ -72,49 +82,53 @@
             </div>
             <div class="services"> 
                 <div>
-                <h4>OUR SERVICES</h4>
+                <h4><a href="" >OUR SERVICES</a></h4>
                 <h3>What We Do</h3>
                 </div>
                 <div class="logos">
-                <div>
-                    <img src="https://www.nicepng.com/png/detail/304-3048415_business-advice-product-icon-png.png" alt="Packing">
+                <div class="packing">
+                    <br>
+                    <img src="https://www.nicepng.com/png/detail/304-3048415_business-advice-product-icon-png.png" alt="Packing" id="packing"><br>
                     <br>
                     <p>Packing</p>
                     <br>
                     <span>Phase sit amet do tris lorem sum is simply free.</span>
                     <br>
                     <br>
-                    <span>READ MORE</span>
+                    <span><a href="">READ MORE</a></span>
                 </div>
-                <div>
-                    <img src="https://www.apokin.es/img/cms/Dropshipping/Almacenamiento.png" alt="Storage">
+                <div class="storage">
+                    <br>
+                    <img src="https://www.apokin.es/img/cms/Dropshipping/Almacenamiento.png" alt="Storage" id="storage"><br>
                     <br>
                     <p>Storage</p>
                     <br>
                     <span>Phase sit amet do tris lorem sum is simply free<span>
                     <br>
                     <br>
-                    <span>READ MORE</span>
+                    <span><a href="" >READ MORE</a></span>
                 </div>
-                <div>
-                    <img src="https://img.freepik.com/premium-vector/delivery-truck-icon-vector-image-can-be-used-laundry_120816-112298.jpg" alt="Transport">
+                <div class="transport">
+                    <br>
+                    <img src="https://img.freepik.com/premium-vector/delivery-truck-icon-vector-image-can-be-used-laundry_120816-112298.jpg" alt="Transport" id="transport"><br>
                     <br>
                     <p>Transport</p>
                     <br>
                     <span>Phase sit amet do tris lorem sum is simply free.</span>
                     <br>
                     <br>
-                    <span>READ MORE</span>
+                    <span><a href="">READ MORE</a></span>
                 </div>
-                <div>
-                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTHpUAL48iTHYyK0zO45g-EEA-eScS0n8Zw_7HhGNISTohwE-b7" alt="insurance logo">
+                <div class="insurance">
+                    <br>
+                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTHpUAL48iTHYyK0zO45g-EEA-eScS0n8Zw_7HhGNISTohwE-b7" alt="insurance logo" id="insurance"><br>
                     <br>
                     <p>Insurance</p>
                     <br>
                     <span>Phase sit amet do tris lorem sum is simply free</span>
                     <br>
                     <br>
-                    <span>READ MORE</span>
+                    <span><a href="">READ MORE</a></span>
                 </div>
             </div>
             </div>
@@ -165,16 +179,16 @@
                     </div>
                     <div class="info">
                         <label for="moving">Moving Type</label><br>
-                        <input type="text" id="local" placeholder="">
+                        <input type="text" id="local" placeholder="local">
                         <br>
                         <label for="date">Date</label><br>
                         <input type="date" id="date" placeholder="">
                         <br>
                         <label for="text">From</label><br>
-                        <input type="text" id="city,state">
+                        <input type="text" id="city" placeholder="city,state">
                         <br>
                         <label for="text">Home Size</label><br>
-                        <input type="number" id="0">
+                        <input type="number" id="num" placeholder="0">
                         <br>
                         <label for="text">To</label><br>
                         <input type="text" id="city,state">
@@ -189,26 +203,29 @@
                 <h3>What They Say</h3>
                 </div >
                 <div class="comments" >
-                    <div>
-                        <img src="" alt="quotation marks">
+                    <div class="com1">
+                        <img src="https://sabortropical.net/wp-content/uploads/2023/06/Group-1000005671.jpg" alt="quotation marks" id="quotes"><br>
+                        <br>
                         <span>I was impresed by the moling services, lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui not dolorem ipsum is simply free text available in the market quia,</span>
                         <p>Christine Rose</p>
                         <p>Customer</p>
-                        <img src="" alt="picture of Christine Rose">
+                        <img src="images/rose.png" alt="picture of Christine Rose" id="rose">
                     </div>
-                    <div>
-                        <img src="" alt="quotation marks">
+                    <div class="com2">
+                        <img src="https://sabortropical.net/wp-content/uploads/2023/06/Group-1000005671.jpg" alt="quotation marks" id="quotes"><br>
+                        <br>
                         <span>I was impresed by the moling services, lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui not dolorem ipsum is simply free text available in the market quia,</span>
                         <p>Christine Rose</p>
                         <p>Customer</p>
-                        <img src="" alt="picture of Christine Rose">
+                        <img src="images/rose.png" alt="picture of Christine Rose" id="rose">
                     </div>
-                    <div>
-                        <img src="" alt="quotation marks">
+                    <div class="com3">
+                        <img src="https://sabortropical.net/wp-content/uploads/2023/06/Group-1000005671.jpg" alt="quotation marks" id="quotes"><br>
+                        <br>
                         <span>I was impresed by the moling services, lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui not dolorem ipsum is simply free text available in the market quia,</span>
                         <p>Christine Rose</p>
                         <p>Customer</p>
-                        <img src="" alt="picture of Christine Rose">
+                        <img src="images/rose.png" alt="picture of Christine Rose" id="rose">
                     </div>
                 </div>
             </div>
@@ -230,20 +247,19 @@
                 <h3>OUR BLOG</h3>
                 <h3>News & Articles</h3>
                 <div class="blog">
-                    <div>
-                        <img src="images/call centre.jpeg" alt="customer care services">
-
+                    <div class="customer">
+                        <p>Our Home Entertainment has Evolved Significantly</p>
                     </div>
-                    <div>
-                        <img src="images/couples choosing movers.jpeg" alt="couples making a choice between movers">
+                    <div class="moversc">
+                        <p>Making a Choice Between Moving Companies</p>
                     </div>
-                    <div>
-                        <img src="images/Moving & Packing Guides.jpeg" alt="Movers in action">
+                    <div class="choicesc">
+                        <p>Baby Boomer and Empty Nesters on the Move</p>
                     </div>
                 </div>
             </div>
             <footer>
-                <div >
+                <div class="">
                     <p>Helping Over 250,000 Movers in the USA.</p>
                 </div>
                 <div class="further-info">

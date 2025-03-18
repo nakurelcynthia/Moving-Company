@@ -25,18 +25,44 @@
 .phone{
     display: flex;
 }
-
+.container-moving{
+    background-image: url(https://i.pinimg.com/736x/9c/0b/24/9c0b24405d14aa5de7d611b79b5dbb3a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    padding-left: 30%;
+    padding-top: 20%;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#submit_button{
+    padding: 2%;
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+    margin-left: 200px;
+    font-size: large;
+}
 .blog{
     display: flex;
+    padding: 1%;
 }
 .Riaad{
     display: flex;
     padding-left: 250px;
     padding-top: 100px
 }
+.Riaad h3{
+    font-size: small;
+}
 .since{
     padding-left: 200px;
-
+    width: 25%;
+}
+.riaad{
+    display: flex;
+    gap: 40px;
 }
 h4{
     padding-left: 700px;
@@ -104,6 +130,7 @@ label{
 }
 .heading{
     font-size: 20px;
+    margin-left: 100px;
 }
 .testimonials .comments{
     display: flex;
@@ -143,3 +170,124 @@ footer{
 .icons{
     margin-left: 150px;
 }
+a{
+    color: orange;
+    font-weight: bolder;
+}
+.logos{
+    display: flex;
+    gap: 40px;
+    padding: 2%;
+}
+.logos p{
+    font-weight: bolder;
+    font-size: x-large;
+    padding-left: 100px;
+}
+.packing{
+    padding-left: 50px;
+    width: 20%;
+}
+.storage{
+    background-color: rgb(106, 205, 238);
+    padding-left: 50px;
+    width: 20%;
+}
+.transport{
+    padding-left: 50px;
+    width: 20%;
+}
+.insurance{
+    padding-left: 50px;
+    width: 20%;
+}
+#packing{
+    width:250px;
+    height: 220px;
+}
+#storage{
+    width: 200px;
+    height: 200px;
+}
+#insurance{
+    width: 200px;
+    height: 200px;
+}
+#transport{
+    width: 200px;
+    height: 200px;
+}
+.customer{
+    border: 1px solid black;
+    background-image: url(images/call\ centre.jpeg);
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-size: cover;
+
+}
+.choicesc{
+    border: 1px solid black;
+    background-image: url(images/couples\ choosing\ movers.jpeg);
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-size: cover;
+}
+.moversc{
+    border: 1px solid black;
+    background-image: url(images/movedboxes.png);
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-size: cover;
+}
+.customer p{
+    padding-top: 200px;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    max-width: 70%;
+    padding-left: 20px;
+}
+.choicesc p{
+    padding-top: 200px;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    max-width: 80%;
+    padding-left: 20px;
+}
+.moversc p{
+    padding-top: 200px;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    max-width: 80%;
+    padding-left: 20px;
+}
+.comments{
+    gap: 100px;
+    margin-left: 300px
+}
+.comments .com1{
+    padding: 2%;
+    width: 15%;
+}
+.comments .com2{
+    padding: 2%;
+    width: 15%;
+}
+.comments .com3{
+    padding: 2%;
+    width: 15%;
+}
+#quotes{
+    margin-left: 100px;
+    width: 40px;
+    height: 40px;
+}
+#rose{
+    padding-left: 100px;
+}
+
+
+
+
