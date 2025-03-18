@@ -115,7 +115,12 @@ h2{
 .book{
     background-color: orange;
     width: 80%;
-
+}
+.book p{
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+    padding-left: 200px;
 }
 .info{
     background-color: blueviolet;
@@ -125,6 +130,15 @@ h2{
 }
 form{
     width: 1850px;
+}
+.movdate{
+    display: flex;
+}
+.fromhome{
+    display: flex;
+}
+.tobut{
+    display: flex;
 }
 input{
     width: 200px;
