@@ -1,11 +1,14 @@
 @media(max-width:750px){
     .navBar{
         flex-direction: column;
-        /* font-size: 2vw; */
+        font-size: 4vw;
         overflow-x: hidden;
-        /* margin-top: -200px; */
-        justify-content: center;
+        overflow-y: hidden;
         text-align: center;
+        width: 100%;
+        display: block;
+        margin-left: -300px;
+        background-color: aquamarine;
     }
     .container{
         margin: auto;
@@ -19,6 +22,17 @@
         height: auto;
     }
     .contact{
+        font-size: 4vw;
+        margin-left: -300px;
+        gap: -800px;
+    }
+    .estimate{
+        margin-left: -40px;
+    }
+    .container-moving{
+        width: 500px;
+        height: 500px;
+        margin-left: -30px;
 
     }
 
@@ -71,21 +85,35 @@
     display: flex;
     padding: 1%;
 }
-.Riaad{
+.riaad{
     display: flex;
     padding-left: 250px;
     padding-top: 100px
+}
+.Riaad{
+    display: flex;
+    margin-left: 200px;
+}
+.Riaad img{
+    width: 650px;
+    height: 500px;
 }
 .Riaad h3{
     font-size: small;
 }
 .since{
-    padding-left: 200px;
+    padding-left: 100px;
     width: 25%;
+    margin-top: 20px;
+}
+.since img{
+    height: 450px;
+    width: 500px;
 }
 .riaad{
     display: flex;
     gap: 40px;
+    width: 80%;
 }
 .year{
     width: 100%;
@@ -161,7 +189,7 @@ h2{
 
 }
 form{
-    width: 1850px;
+    width: 1800px;
 }
 .happycouples{
     background-image: url(images/couples\ moving.jpeg);
