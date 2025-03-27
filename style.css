@@ -1,3 +1,28 @@
+@media(max-width:750px){
+    .navBar{
+        flex-direction: column;
+        /* font-size: 2vw; */
+        overflow-x: hidden;
+        /* margin-top: -200px; */
+        justify-content: center;
+        text-align: center;
+    }
+    .container{
+        margin: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90%;
+        font-size: 2vw;
+    }
+    .happycouples{
+        max-width: 100%;
+        height: auto;
+    }
+    .contact{
+
+    }
+
+}
 .navBar{
     display: flex;
     gap: 80px;
