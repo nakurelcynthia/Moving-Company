@@ -1,0 +1,389 @@
+.navBar{
+    display: flex;
+    gap: 80px;
+    padding-left: 400px;
+}
+.estimate{
+    background-color: black;
+    color: white;
+    height: 50px;
+    border-radius: 2%;
+    padding: 5px;
+    padding-left: 800px;
+    display: flex;
+}
+.contact{
+    display: flex;
+    gap: 800px;
+    padding-left: 300px;
+}
+.email{
+    display: flex;
+}
+.phone{
+    display: flex;
+}
+.container-moving{
+    background-image: url(https://i.pinimg.com/736x/9c/0b/24/9c0b24405d14aa5de7d611b79b5dbb3a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    padding-left: 30%;
+    padding-top: 20%;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#submit_button{
+    padding: 2%;
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+    margin-left: 200px;
+    font-size: large;
+}
+.blog{
+    display: flex;
+    padding: 1%;
+}
+.riaad{
+    display: flex;
+    padding-left: 250px;
+    padding-top: 100px
+}
+.Riaad{
+    display: flex;
+    margin-left: 200px;
+}
+.Riaad img{
+    width: 650px;
+    height: 500px;
+}
+.Riaad h3{
+    font-size: small;
+}
+.since{
+    padding-left: 100px;
+    width: 25%;
+    margin-top: 20px;
+}
+.since img{
+    height: 450px;
+    width: 500px;
+}
+.riaad{
+    display: flex;
+    gap: 40px;
+    width: 80%;
+}
+.year{
+    width: 100%;
+}
+h4{
+    padding-left: 700px;
+}
+h2{
+    padding-left: 600px;
+    font-size: 60px;
+}
+.services{
+    padding-left: 90px;
+}
+.services .logos{
+    display: flex;
+}
+.services h3{
+    margin-left: 650px;
+    font-size: 50px;
+}
+.demo{
+    display: flex;
+    gap: 200px;
+    padding: 80px 0px 80px 200px;
+    margin-left: 200px;
+}
+.demo .help{
+    width: 30%;
+}
+.demo .vid{
+    display: flex;
+    width: 35%;
+}
+.why{
+    display: flex;
+    gap: 200px;
+    padding: 80px 0px 80px 200px;
+    margin-left: 100px;
+}
+.blue{
+    background-color: blue;
+    width: 400px;
+    height: 500px;
+}
+#cboxes{
+    width: 300px;
+    height: 400px;
+}
+.reason{
+    width: 30%;
+}
+
+.split-screen{
+    display: flex;
+    width: 100%;
+    margin-top: -5px;
+}
+.book{
+    background-color: orange;
+    width: 100%;
+}
+.book p{
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+    padding-left: 200px;
+}
+.info{
+    background-color: blueviolet;
+    padding: 5%;
+    width: 100%;
+
+}
+form{
+    width: 1800px;
+}
+.happycouples{
+    background-image: url(images/couples\ moving.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    padding-left: 30%;
+    padding-top: 20%;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.movdate{
+    display: flex;
+}
+.fromhome{
+    display: flex;
+}
+.tobut{
+    display: flex;
+}
+input{
+    width: 200px;
+    height: 20px;
+}
+label{
+    font-weight: bolder;
+    color: whit     WHY CHOOSE RIAADe;
+}
+.testimonials{
+
+}
+.testimonials .heading{
+    padding-left: 600px;
+}
+.heading{
+    font-size: 20px;
+    margin-left: 100px;
+}
+.testimonials .comments{
+    display: flex;
+}
+.newsletter{
+    margin: 200px;
+    margin-left: 300px;
+}
+.newsletter .updates{
+    margin-left: 500px;
+}
+
+.newsletter .sub{
+    display: flex;
+    gap: 800px;
+}
+#submit{
+    background-color: orange;
+}
+.blog{
+    display: flex;
+    gap: 200px;
+
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.further-info{
+    display: flex;
+
+}
+.further-info .p{
+    display: flex;
+}
+a{
+    color: orange;
+    font-weight: bolder;
+    font-size: small;
+}
+.logos{
+    display: flex;
+    gap: 40px;
+    padding: 2%;
+}
+.logos p{
+    font-weight: bolder;
+    font-size: x-large;
+    padding-left: 100px;
+}
+.icons{
+    gap: 40px;
+}
+#X{
+    width: 20px;
+    height: 20px;
+}
+.packing{
+    padding-left: 50px;
+    width: 20%;
+}
+.storage{
+    background-color: rgb(106, 205, 238);
+    padding-left: 50px;
+    width: 20%;
+}
+.transport{
+    padding-left: 50px;
+    width: 20%;
+}
+.insurance{
+    padding-left: 50px;
+    width: 20%;
+}
+#packing{
+    width:250px;
+    height: 220px;
+}
+#storage{
+    width: 200px;
+    height: 200px;
+}
+#insurance{
+    width: 200px;
+    height: 200px;
+}
+#transport{
+    width: 200px;
+    height: 200px;
+}
+.customer{
+    background-image: url(images/call\ centre.jpeg);
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-size: cover;
+}
+.choicesc{
+    border: 1px solid black;
+    background-image: url(images/couples\ choosing\ movers.jpeg);
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-size: cover;
+}
+.moversc{
+    border: 1px solid black;
+    background-image: url(images/movedboxes.png);
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-size: cover;
+}
+.customer p{
+    padding-top: 200px;
+    color: rgb(58, 56, 56);
+    font-weight: bolder;
+    font-size: xx-large;
+    max-width: 70%;
+    padding-left: 20px;
+}
+.choicesc p{
+    padding-top: 200px;
+    color: rgb(39, 38, 38);
+    font-weight: bolder;
+    font-size: xx-large;
+    max-width: 80%;
+    padding-left: 20px;
+}
+.moversc p{
+    padding-top: 200px;
+    color: rgb(34, 32, 32);
+    font-weight: bolder;
+    font-size: xx-large;
+    max-width: 80%;
+    padding-left: 20px;
+}
+.comments{
+    gap: 100px;
+    margin-left: 300px
+}
+.comments .com1{
+    padding: 2%;
+    width: 15%;
+}
+.comments .com2{
+    padding: 2%;
+    width: 15%;
+}
+.comments .com3{
+    padding: 2%;
+    width: 15%;
+}
+#quotes{
+    margin-left: 100px;
+    width: 40px;
+    height: 40px;
+}
+#rose{
+    padding-left: 100px;
+}
+.helpm{
+    border: 1px solid white;
+    background-color: orange;
+    font-weight: bolder;
+    font-size: xx-large;
+    height: 200px;
+    display: flex;
+    gap: 100px;
+    padding-left: 300px;
+    padding-top: 50px;
+}
+#buttonD{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    height: 30px;
+    margin-top: 30px;
+}
+.news{
+    padding-left: 900px;
+}
+.news h3{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-left: -120px;
+}
+
+@media screen and (max-width:480px) {
+    .navBar{
+        gap: 5px;
+        padding-left: 10px;
+        flex-direction: column;
+    }
+    .contact{
+        gap: 5px;
+        padding-left: 50px;
+        flex-direction: column;
+    }
+}
